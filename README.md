@@ -37,7 +37,7 @@ Site hosted by firebase
 
 1.User Can Buy Product.
 
-2.This Website has Admin Dashboard.
+2.This Website has Admin Dashboard.[(Email:admin@admin.com)(Password:123456)]
 
 3.Admin could add new Product, Change Product Status and So on.
 
