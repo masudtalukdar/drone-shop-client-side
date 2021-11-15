@@ -39,6 +39,6 @@ Site hosted by firebase
 
 2.This Website has Admin Dashboard.
 
-3. Admin could add new Product, Change Product Status and So on.
+3.Admin could add new Product, Change Product Status and So on.
 
 4.Have firebase authentication.

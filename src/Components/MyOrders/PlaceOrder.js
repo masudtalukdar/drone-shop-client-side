@@ -23,7 +23,7 @@ const PlaceOrder = () => {
     axios
       .get(`https://mighty-headland-58839.herokuapp.com/product/${params.id}`)
       .then((res) => setProduct(res.data));
-  }, []);
+  }, [params.id]);
   console.log(product);
   const [placeOrder, setPlaceOrder] = useState(false);
   const [successful, setSuccessful] = useState(false);

@@ -21,8 +21,8 @@ const Review = () => {
   ></Box>;
   return (
     <Container>
-      <Box sx={{ display: 'flex', m: 10 }}>
-        <Grid item xs={6} md={8}>
+      <Box sx={{ display: 'flex' }}>
+        <Grid item xs={20} md={8}>
           <Card sx={{ maxWidth: 345 }}>
             <Avatar
               sx={{ mx: '128px', mt: 2 }}
@@ -45,7 +45,7 @@ const Review = () => {
             </CardContent>
           </Card>
         </Grid>
-        <Grid item xs={6} md={8}>
+        <Grid item xs={20} md={8}>
           <Card sx={{ maxWidth: 345 }}>
             <Avatar
               sx={{ mx: '128px', mt: 2 }}
@@ -68,7 +68,7 @@ const Review = () => {
             </CardContent>
           </Card>
         </Grid>
-        <Grid item xs={6} md={8}>
+        <Grid item xs={20} md={8}>
           <Card sx={{ maxWidth: 345 }}>
             <Avatar
               sx={{ mx: '128px', mt: 2 }}

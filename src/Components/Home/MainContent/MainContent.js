@@ -32,8 +32,7 @@ const MainContent = () => {
                   PREFLIGHT
                 </Typography>
                 <Typography variant='subtitle2' gutterBottom component='div'>
-                  Travelled down the road and back again. Your heart is true
-                  you're a confidant.
+                  Travelled down the road and back again.
                 </Typography>
               </Grid>
               <Grid item xs>
@@ -42,8 +41,7 @@ const MainContent = () => {
                   PREFLIGHT
                 </Typography>
                 <Typography variant='subtitle2' gutterBottom component='div'>
-                  Travelled down the road and back again. Your heart is true
-                  you're a confidant.
+                  Your heart is true you're a confidant.
                 </Typography>
               </Grid>
             </Grid>

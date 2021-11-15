@@ -175,8 +175,44 @@ h4.MuiTypography-root.MuiTypography-h4.css-1oxsymt-MuiTypography-root {
 .addProduct {
   background-color: #d9afd9;
   background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  border-radius: 50px;
 }
 .makeAdmin {
   background-color: #d9afd9;
   background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  border-radius: 50px;
+}
+.manageOrder {
+  background-color: #d9afd9;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  border-radius: 20px;
+  padding: 10px;
+}
+.editProduct {
+  background-color: #d9afd9;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  border-radius: 20px;
+}
+.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-5.css-1ld3b9g-MuiGrid-root {
+  margin-left: 5px;
+  padding-right: 60px;
+}
+.col {
+  margin-right: 20px;
+}
+@media (max-width: 740px) {
+  .products.MuiBox-root.css-nr1s2v {
+    margin: -16px;
+  }
+  .css-k008qs {
+    margin: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: -19px;
+    margin-left: 75 px;
+  }
+  .css-rey6c5-MuiGrid-root {
+    display: contents;
+  }
 }

@@ -18,7 +18,7 @@ const SingelOrder = ({ order, setReload }) => {
       });
   };
   return (
-    <div className='bg-success'>
+    <div className='manageOrder'>
       <div className='single-info text-start'>
         <div className='d-flex justify-content-between'>
           <h5>Name: {order.name}</h5>

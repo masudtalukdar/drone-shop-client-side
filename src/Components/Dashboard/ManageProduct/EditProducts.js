@@ -32,10 +32,10 @@ const EditProducts = ({ product, setReload }) => {
   };
 
   return (
-    <div class='col'>
+    <div class='col '>
       {edit ? (
         <form
-          className='mt-5 bg-warning p-2 '
+          className='mt-5   p-2 editProduct '
           onSubmit={handleSubmit(onSubmit)}
         >
           <div className='m-3'>

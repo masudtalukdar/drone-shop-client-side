@@ -8,7 +8,6 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Button from '@mui/material/Button';
 import img from '../../../Images/drone-logo.png';
 import { Link } from 'react-router-dom';
-import UseFirebase from '../../../hooks/useFirebase';
 import axios from 'axios';
 import useAuth from '../../../hooks/useAuth';
 
