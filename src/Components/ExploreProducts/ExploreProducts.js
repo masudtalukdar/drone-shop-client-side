@@ -23,7 +23,7 @@ const ExploreProducts = ({ home }) => {
 
   useEffect(() => {
     axios
-      .get('http://localhost:5000/allProducts')
+      .get('https://mighty-headland-58839.herokuapp.com/allProducts')
       .then((res) => setProducts(res.data));
   }, []);
   console.log(home);

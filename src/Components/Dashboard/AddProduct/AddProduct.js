@@ -6,11 +6,13 @@ const AddProduct = () => {
   const { register, handleSubmit } = useForm();
 
   const onSubmit = (data, e) => {
-    axios.post(` http://localhost:5000/addProducts`, data).then((res) => {
-      console.log(res.data);
+    axios
+      .post(`https://mighty-headland-58839.herokuapp.com/addProducts`, data)
+      .then((res) => {
+        console.log(res.data);
 
-      alert('Product Added Successfully!');
-    });
+        alert('Product Added Successfully!');
+      });
     console.log(data);
   };
   return (

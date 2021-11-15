@@ -6,11 +6,13 @@ const MakeAdmin = () => {
   const { register, handleSubmit } = useForm();
 
   const onSubmit = (data, e) => {
-    axios.post(` http://localhost:5000/addAdmin`, data).then((res) => {
-      console.log(res.data);
+    axios
+      .post(` https://mighty-headland-58839.herokuapp.com/addAdmin`, data)
+      .then((res) => {
+        console.log(res.data);
 
-      alert('Admin Added Successfully!');
-    });
+        alert('Admin Added Successfully!');
+      });
     console.log(data);
   };
   return (

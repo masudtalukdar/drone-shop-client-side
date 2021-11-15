@@ -9,7 +9,10 @@ const EditProducts = ({ product, setReload }) => {
   const onSubmit = (data) => {
     console.log(data);
     axios
-      .patch(`http://localhost:5000/updateProduct/${product._id}`, data)
+      .patch(
+        `https://mighty-headland-58839.herokuapp.com/updateProduct/${product._id}`,
+        data
+      )
       .then((res) => {
         console.log(res.data);
         setReload(res.data);
@@ -18,7 +21,9 @@ const EditProducts = ({ product, setReload }) => {
   };
   const handleDelete = () => {
     axios
-      .delete(`http://localhost:5000/deleteProduct/${product._id}`)
+      .delete(
+        `https://mighty-headland-58839.herokuapp.com/deleteProduct/${product._id}`
+      )
       .then((res) => {
         console.log(res.data);
         setReload(res.data);

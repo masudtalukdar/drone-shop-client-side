@@ -8,7 +8,7 @@ const ManageOrder = () => {
 
   useEffect(() => {
     axios
-      .get('http://localhost:5000/allOrders')
+      .get('https://mighty-headland-58839.herokuapp.com/allOrders')
       .then((res) => setOrders(res.data));
   }, [reload]);
 

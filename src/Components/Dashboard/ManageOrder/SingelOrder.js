@@ -8,7 +8,10 @@ const SingelOrder = ({ order, setReload }) => {
     const value = { status: event.target.value };
     console.log(value);
     axios
-      .patch(`http://localhost:5000/updateStatus/${order._id}`, value)
+      .patch(
+        `https://mighty-headland-58839.herokuapp.com/updateStatus/${order._id}`,
+        value
+      )
       .then((res) => {
         console.log(res.data);
         setReload(res.data);

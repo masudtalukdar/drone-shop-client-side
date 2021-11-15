@@ -21,7 +21,7 @@ const PlaceOrder = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/product/${params.id}`)
+      .get(`https://mighty-headland-58839.herokuapp.com/product/${params.id}`)
       .then((res) => setProduct(res.data));
   }, []);
   console.log(product);
@@ -37,10 +37,12 @@ const PlaceOrder = () => {
       user: user.email,
       product: product,
     };
-    axios.post(`http://localhost:5000/placeOrder`, newData).then((res) => {
-      setSuccessful(true);
-      console.log(res.data);
-    });
+    axios
+      .post(`https://mighty-headland-58839.herokuapp.com/placeOrder`, newData)
+      .then((res) => {
+        setSuccessful(true);
+        console.log(res.data);
+      });
   };
 
   return (

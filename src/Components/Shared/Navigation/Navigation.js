@@ -18,7 +18,9 @@ export default function ButtonAppBar() {
   const [admin, setAdmin] = React.useState(false);
   React.useEffect(() => {
     axios
-      .get(`http://localhost:5000/checkAdmin/${user.email}`)
+      .get(
+        `https://mighty-headland-58839.herokuapp.com/checkAdmin/${user.email}`
+      )
       .then((res) => setAdmin(res.data));
   }, [user]);
   console.log(admin);

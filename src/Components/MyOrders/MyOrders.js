@@ -10,7 +10,9 @@ const MyOrders = ({ status }) => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/userOrders/${user.email}`)
+      .get(
+        `https://mighty-headland-58839.herokuapp.com/userOrders/${user.email}`
+      )
       .then((res) => setOrders(res.data));
   }, [user]);
   console.log(orders);
