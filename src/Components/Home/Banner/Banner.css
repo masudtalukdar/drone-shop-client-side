@@ -1,0 +1,12 @@
+h3 {
+  font-size: 70px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 410px;
+}
+@media (max-width: 740px) {
+  h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+}

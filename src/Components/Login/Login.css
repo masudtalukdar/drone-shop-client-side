@@ -1,0 +1,33 @@
+.form {
+  background: rgb(11, 5, 15);
+  margin-top: 100px;
+}
+.signIn {
+  border: 2px solid rgb(143, 141, 140);
+  padding: 50px;
+  margin-right: 200px;
+  height: 400px;
+  background-color: rgb(14, 14, 14);
+  opacity: 0.9;
+}
+.login {
+  border: 2px solid rgb(143, 141, 140);
+  height: 400px;
+  background-color: rgb(14, 14, 14);
+  opacity: 0.9;
+}
+input {
+  padding: 5px;
+  border-radius: 10px;
+  border: indigo;
+}
+@media (max-width: 740px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .signIn {
+    margin-left: 200px;
+    margin-bottom: 20px;
+  }
+}
