@@ -1,4 +1,4 @@
-# Welcome to travel-vela
+# Welcome to Drone-Shop
 
 This Project Based On react js [Click here for Live Site Link](https://drone-shop-2f2e9.web.app/).
 
@@ -13,7 +13,7 @@ This is a Drone Shop website.
  Client-side Hosted by Firebase
  Server-side Hosted by Heroku
 
-## Tecnnolgy Used This Project
+## Technology Used This Project
 
 Font-end
 
