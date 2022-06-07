@@ -2,7 +2,7 @@
 
 This Project Based On react js [Click here for Live Site Link](https://drone-shop-2f2e9.web.app/).
 
-[Linkedin](https://www.linkedin.com/in/masudtalukdar/).
+[Linkedin](https://www.linkedin.com/in/masudtalukdar/)
 
 # key Features
 
